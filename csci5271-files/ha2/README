@@ -1,0 +1,18 @@
+CSCI 5271 F21 HA2 GG 07
+===================
+Members: Ben Smith
+
+Included files:
+* README (this file)
+* dump1.txt and file1.txt
+* dump2.txt, crack2.py, readme2.txt, and file2.txt
+* cookies3.txt and readme3.txt
+* readme4.txt
+* comment5.txt, cookies5.txt, and readme5.txt
+* crack6.py and readme6.txt.
+
+
+NOTE
+====
+The file comment5.txt has the .txt extension because when I tar'd and untar'd it as a .html file it
+expanded into seemingly random binary data. 

@@ -1,0 +1,19 @@
+COMMAND RAN
+===========
+sudo tcpdump -v -n host $SERVER -B 4096 -i vpn_eth1
+
+CAPTURED PACKET 
+===============
+	HEAD /secret/cheese HTTP/1.1
+	Host: 192.168.7.1
+	Authorization: Digest username="travis7",
+						  realm="Cheese",
+						  nonce="opdwqpPSBQA=d120d826af562c9b115bed0533d620c9389f1bae", 
+                   		  uri="/secret/cheese",
+						  cnonce="OTZjMzJlNDY5OTFkNTZhNmQyYThjN2U2NWJmMDdiYjU=",
+						  nc=00000001,
+						  qop=auth, 
+                   		  response="eca7d20b6541fb51eb98aa3f0b70c785",
+						  algorithm="MD5"
+	User-Agent: curl/7.58.0
+	Accept: */*

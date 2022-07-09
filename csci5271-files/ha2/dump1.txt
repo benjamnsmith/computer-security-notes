@@ -1,0 +1,16 @@
+COMMAND RAN
+===========
+sudo tcpdump -v -n host $SERVER -B 4096 -i vpn_eth1
+
+CAPTURED PACKET 
+===============
+	HEAD /secret/file.php HTTP/1.0
+	Host: 192.168.7.1
+	Connection: close
+	Accept-language: en
+	Authorization: Basic dHJhdmlzNzptYWl2RGVjZ3VyODg=
+
+PLAINTEXT USER & PASS
+=====================
+user: travis7
+pass: maivDecgur88	
