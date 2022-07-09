@@ -10,3 +10,4 @@ It was a great class with lots of good information and resources and I need a di
 
 ### Misc
 - [XSS Explained - Amir Klein](http://courses.csail.mit.edu/6.857/2009/handouts/css-explained.pdf)
+- [The Book of Secret Knowledge (Security tools and resources)](https://github.com/AntouanK/the-book-of-secret-knowledge)
